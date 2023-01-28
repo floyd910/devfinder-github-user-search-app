@@ -1,0 +1,36 @@
+.bio {
+  width: 100%;
+  margin-top: 34px;
+}
+
+.bio p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  color: #4b6a9b;
+  text-align: left;
+  width: 100%;
+}
+
+.dark .bio p {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .bio {
+    margin-top: 24px;
+  }
+
+  .bio p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .bio {
+    width: calc(100% - 117px - 37px);
+    margin-top: -45px;
+  }
+}

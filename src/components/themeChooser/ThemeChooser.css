@@ -1,0 +1,21 @@
+.dark-light-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.dark-light-btn p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.dark .dark-light-btn p {
+  color: #ffffff;
+}

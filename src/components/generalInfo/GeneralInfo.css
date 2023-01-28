@@ -1,0 +1,59 @@
+.general-info h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2b3442;
+  text-align: left;
+}
+
+.general-info h3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #0079ff;
+  text-align: left;
+  margin-top: -2px;
+}
+
+.general-info p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: left;
+  color: #697c9a;
+  margin-top: 6px;
+}
+
+.dark .general-info h2,
+.dark .general-info p {
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .general-info h2 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .general-info h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .general-info p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .general-info p {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

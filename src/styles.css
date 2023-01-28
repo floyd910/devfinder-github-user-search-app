@@ -1,0 +1,29 @@
+.App {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+input {
+  border: none;
+  background: transparent;
+}
+
+input:focus {
+  outline: none;
+}

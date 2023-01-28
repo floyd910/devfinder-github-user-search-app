@@ -1,0 +1,12 @@
+h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: #222731;
+}
+
+.dark h1 {
+  color: #ffffff;
+}
