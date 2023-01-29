@@ -19,5 +19,6 @@
   .light,
   .dark {
     padding: 31px 98px 79px 97px;
+    justify-content: center;
   }
 }
