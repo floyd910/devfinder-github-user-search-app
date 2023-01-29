@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 16px;
+  grid-gap: 16px;
 }
 
 .dark-light-btn p {
