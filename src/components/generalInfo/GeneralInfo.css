@@ -35,6 +35,10 @@
   color: white;
 }
 
+.general-info{
+  margin-left: 19.5px;
+}
+
 @media only screen and (min-width: 768px) {
   .general-info h2 {
     font-size: 26px;
@@ -48,6 +52,9 @@
     font-size: 15px;
     line-height: 22px;
   }
+  .general-info{
+    margin-left: 40px;
+  }
 }
 
 @media only screen and (min-width: 1240px) {
@@ -55,5 +62,8 @@
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .general-info{
+    margin-left: 37px;
   }
 }
