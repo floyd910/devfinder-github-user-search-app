@@ -1,21 +1,21 @@
 .profile {
   display: flex;
   justify-content: flex-start;
-  gap: 19.5px;
+/*   gap: 19.5px; */
   align-items: center;
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   .profile {
-    gap: 40px;
+/*     gap: 40px; */
   }
 }
 
 @media only screen and (min-width: 1240px) {
   .profile {
     align-items: flex-start;
-    gap: 37px;
+/*     gap: 37px; */
     position: relative;
   }
 }
