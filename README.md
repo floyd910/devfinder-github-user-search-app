@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/floyd910/devfinder-github-user-search-app/blob/main/README.md]
+- Solution URL: [https://github.com/floyd910/devfinder-github-user-search-app]
 - Live Site URL: [Add live site URL here]
 
 ## My process
