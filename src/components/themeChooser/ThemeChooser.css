@@ -1,9 +1,8 @@
 .dark-light-btn {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 16px;
-  grid-gap: 16px;
+  justify-content: space-between;
+  width: 78px;
 }
 
 .dark-light-btn p {
@@ -16,6 +15,9 @@
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
+
+.dark .dark-light-btn {
+  width: 89px;
 
 .dark .dark-light-btn p {
   color: #ffffff;
