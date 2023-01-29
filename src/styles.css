@@ -30,5 +30,5 @@ input:focus {
 }
 
 button:focus{
-  outline: 0;
+  outline-color: transparent;
 }
