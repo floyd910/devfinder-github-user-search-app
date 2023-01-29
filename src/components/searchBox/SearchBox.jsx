@@ -5,7 +5,7 @@ import "./SearchBox.css";
 
 export default function SearchBox({ getUserData, error }) {
   const searchWord = useRef();
-  console.log(error);
+  
   return (
     <div className="search-box">
       <img src={searchIcon} alt="Search icon" />
