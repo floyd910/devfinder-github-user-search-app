@@ -27,7 +27,7 @@ export default function InfoAdditional({ userData, index, info, lightTheme }) {
             <img src={locationDark} alt="Location icon" />
           )}
 
-          <p style={{ marginLeft: "6px" }}>
+          <p>
             {userData[info] ? userData[info] : "Not Available"}
           </p>
         </div>
