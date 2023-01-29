@@ -41,6 +41,10 @@
     margin-top: 0px;
   }
   
+  .info-additional:nth-child(3), .info-additional:nth-child(4){
+    margin-top: 19px;
+  }
+  
   .info-additional:nth-child(2n){
     margin-left: 19px;
   }
